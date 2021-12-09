@@ -24,6 +24,7 @@ module.exports = merge(getBaseConfig({ useCssExtract: true }), {
     filename: '[name].js',
     globalObject: "typeof self !== 'undefined' ? self : this",
   },
+  // devtool: 'cheap-module-source-map',// meet bug open it,quick find error in code
   externals: {
     vue: {
       root: 'Vue',

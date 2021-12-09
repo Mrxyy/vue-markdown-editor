@@ -134,8 +134,11 @@
   },
   "homepage": "https://github.com/code-farmer-i/vue-markdown-editor#readme",
   "dependencies": {
-    "@babel/runtime": "^7.14.0",
     "@vuepress/markdown": "^1.8.2",
+    "@babel/preset-env": "^7.16.4",
+    "@vuepress/shared-utils": "^1.8.2",
+    "markdown-it-emoji": "^2.0.0",
+    "shared-utils": "^2.0.1",
     "codemirror": "^5.61.1",
     "copy-to-clipboard": "^3.3.1",
     "highlight.js": "^10.7.2",
